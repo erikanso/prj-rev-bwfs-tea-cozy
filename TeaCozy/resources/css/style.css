@@ -1,0 +1,158 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 69px;
+  display: inline-flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: black;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+  display: flex;
+  position: relative;
+  left: 10px;
+  top: 8px;
+}
+
+nav {
+  display: inline-flex;
+  text-decoration: underline;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: seashell;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+/* Header */
+
+/* Content */
+
+content {
+  position: relative;
+  top: 69px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+/* Content */
+
+/* Mission */
+
+#mission {
+  background-image: url("../images/mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+}
+
+/* Mission */
+
+/* Featured Tea */
+
+#featured-tea {
+  background: black;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.tea-types h4 {
+  line-height: 10px;
+}
+
+.tea-photo {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  padding: 0 15px;
+}
+
+/* Featured Tea */
+
+/* Locations */
+
+#locations {
+  background-image: url("../images/locations.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  line-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations {
+  flex-direction: row;
+}
+
+.location {
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+  line-height: 30px;
+}
+
+/* Locations */
+
+/* Footer */
+
+.contact {
+  margin: auto;
+  height: 200px;
+}
+
+footer {
+  position: relative;
+  left: 20px;
+
+/* This code doesn't left-align;
+  text-align: left;
+  flex-direction: row;
+  align-items: flex-start;  */
+  
+}
+
+/* Footer */
